@@ -2,8 +2,12 @@
  * FullCalendar v3.8.0
  * Docs & License: https://fullcalendar.io/
  * (c) 2017 Adam Shaw
+ * 
  */
+
+
 (function webpackUniversalModuleDefinition(root, factory) {
+    console.log("helloxss");
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory(require("moment"), require("jquery"));
 	else if(typeof define === 'function' && define.amd)
